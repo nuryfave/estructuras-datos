@@ -1,3 +1,8 @@
+# ===========================================
+# By: Nury Farelo - Estructuras Datos
+# Name: Lista Simplemente Enlazada 
+# ===========================================
+
 # Clase Nodo
 class Nodo:
 	def __init__(self, data):
@@ -5,18 +10,16 @@ class Nodo:
 		self.siguiente = None
 
 # CLase Listas enlazada simple
-
-
 class ListaSE:
 	def __init__(self):
 		self.cabeza = None
-    
-    # Lista Vacia
-    def vacio(self):
-        if sel.cabeza == None:
-            print("Está vacia")
+  
+  	# Lista Vacia
+	def vacio(self):
+		if sel.cabeza == None:
+      		print("Está vacia")
 		else:
-			print("Lista no vacia")
+      		print("Lista no vacia")
 
 	# Agregar al inicio
 	def agregarInicio(self, data):
